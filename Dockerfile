@@ -1,2 +1,2 @@
-FROM php:7
+FROM 7-fpm-buster
 RUN docker-php-ext-install mysqli
